@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Chung Wing Lai`
+- **CCID:** `chungwin`
 
 ## References and Resources
 
