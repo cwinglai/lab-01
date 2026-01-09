@@ -1,4 +1,4 @@
-package com.example.lab1;
+package com.example.petshop;
 
 public interface Pettable {
     public void pet();

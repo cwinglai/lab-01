@@ -1,4 +1,4 @@
-package com.example.lab1;
+package com.example.petshop;
 import java.util.ArrayList;
 
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.petshop.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Scorpion scorpion = new Scorpion("Scorponok");
 
         ArrayList<Pet> petList = new ArrayList<Pet>();
-
         petList.add(cat);
         petList.add(dog);
         petList.add(scorpion);
