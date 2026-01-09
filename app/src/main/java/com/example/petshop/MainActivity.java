@@ -9,8 +9,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.petshop.R;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Pettable> pettablePets = new ArrayList<>();
         pettablePets.add(cat);
         pettablePets.add(dog);
-//        pettablePets.add(scorpion); #scorpion does not implement Pettable
+//        pettablePets.add(scorpion); scorpion does not implement Pettable
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
